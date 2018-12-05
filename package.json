@@ -1,6 +1,6 @@
 {
   "name": "pin-dependencies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pin dependencies with yarn or npm",
   "main": "index.js",
   "bin": {
