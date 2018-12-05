@@ -1,0 +1,26 @@
+{
+  "name": "pin-dependencies",
+  "version": "0.1.0",
+  "description": "Pin dependencies with yarn or npm",
+  "main": "index.js",
+  "bin": {
+    "pin-dependencies": "bin.js",
+    "pin": "bin.js"
+  },
+  "author": "Gregor Adams <greg@pixelass.com>",
+  "repository": "git@github.com:pixelass/pin-dependencies.git",
+  "license": "MIT",
+  "scripts": {
+    "pin": "node bin",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "execa": "1.0.0",
+    "globby": "8.0.1",
+    "meow": "5.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "4.4.0"
+  }
+}
