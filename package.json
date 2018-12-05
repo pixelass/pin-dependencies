@@ -7,6 +7,10 @@
     "pin-dependencies": "bin.js",
     "pin": "bin.js"
   },
+  "files": [
+    "index.js",
+    "bin.js"
+  ],
   "author": "Gregor Adams <greg@pixelass.com>",
   "repository": "git@github.com:pixelass/pin-dependencies.git",
   "license": "MIT",

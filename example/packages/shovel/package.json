@@ -1,0 +1,41 @@
+{
+  "name": "excavate",
+  "version": "0.0.0",
+  "description": "Re-/move files or directories",
+  "keywords": [
+    "remove",
+    "move",
+    "copy",
+    "delete",
+    "rm",
+    "flatten"
+  ],
+  "author": "Gregor Adams <greg@pixelass.com>",
+  "homepage": "https://github.com/pixelass/pin-dependencies#readme",
+  "license": "MIT",
+  "main": "lib/excavate.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelass/pin-dependencies.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "globby": "8.0.1",
+    "pify": "4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelass/pin-dependencies/issues"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pin-dependencies.example",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Gregor Adams <greg@pixelass.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "pin-dependencies": "../"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "lerna": "3.5.1",
+    "prettier": "1.15.3"
+  }
+}
